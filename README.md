@@ -71,12 +71,6 @@ YOLO 標註格式為：
 
 所有值皆為相對座標（0\~1），可直接用於 YOLOv5/v8 訓練。
 
-## ✨ 技術亮點
-
-* 結合 HuggingFace Florence-2 與 Open Vocabulary Detection 概念
-* 支援 GPU FP16 推論以加快速度
-* 自動轉換並匯出 YOLO 格式標註，利於後續模型訓練與強化學習
-
 ## 📌 注意事項
 
 * 若無偵測到指定文字相關物件（如 smoke），則該幀不會輸出標註框
